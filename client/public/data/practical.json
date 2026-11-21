@@ -1,0 +1,339 @@
+{
+  "landingBudget": [
+    {
+      "id": 1,
+      "category": "טיסות, שילוח מזוודות ואגרות מעבר",
+      "amount_min_usd": 5000,
+      "amount_max_usd": 7000,
+      "details": "כרטיסי טיסה ל-4 נפשות, אגרות ויזה/גרין קארד ומשלוח ציוד ראשוני"
+    },
+    {
+      "id": 2,
+      "category": "כניסה לבית שכור (ללא Credit Score)",
+      "amount_min_usd": 5000,
+      "amount_max_usd": 7500,
+      "details": "חודש ראשון + חודש אחרון + פיקדון ביטחון מוגדל (לבית של ~$2,400/חודש)"
+    },
+    {
+      "id": 3,
+      "category": "ריהוט ואבזור בסיסי לבית",
+      "amount_min_usd": 6000,
+      "amount_max_usd": 9000,
+      "details": "בתים בארה\"ב מושכרים ריקים (למעט מקרר/כיריים/מדיח) — איקאה, טארגט ויד שנייה"
+    },
+    {
+      "id": 4,
+      "category": "רכישת 2 רכבים משומשים במזומן",
+      "amount_min_usd": 18000,
+      "amount_max_usd": 24000,
+      "details": "טויוטה/הונדה אמינות דרך CarMax או סוכנויות כדי להימנע מריבית של 10%–18%"
+    },
+    {
+      "id": 5,
+      "category": "ביטוח רכב לחצי שנה ראשונה",
+      "amount_min_usd": 2000,
+      "amount_max_usd": 3000,
+      "details": "תעריף ראשוני גבוה לבעלי רישיון זר עד להמרה לרישיון DMV מקומי"
+    },
+    {
+      "id": 6,
+      "category": "קרן חירום רפואית (Deductible + ציוד)",
+      "amount_min_usd": 3000,
+      "amount_max_usd": 3000,
+      "details": "כיסוי השתתפות עצמית ראשונית (Deductible) וסבסוד ציוד סוכרת"
+    }
+  ],
+  "checklists": [
+    {
+      "id": 5,
+      "group_name": "israel_docs",
+      "step_order": 1,
+      "title": "תעודות לידה ונישואין מקוריות עם אפוסטיל",
+      "description": "הנפקת תעודות רשמיות, תרגום לאנגלית וחותמת אפוסטיל.",
+      "is_critical": 1,
+      "is_completed": 0
+    },
+    {
+      "id": 6,
+      "group_name": "israel_docs",
+      "step_order": 2,
+      "title": "פנקסי חיסונים מלאים מתורגמים לאנגלית",
+      "description": "חובה מוחלטת לרישום לבתי ספר ציבוריים בארה\"ב — ללא חיסונים מאומתים הילדות לא מורשות להיכנס לכיתה.",
+      "is_critical": 1,
+      "is_completed": 0
+    },
+    {
+      "id": 7,
+      "group_name": "israel_docs",
+      "step_order": 3,
+      "title": "תעודות בגרות, גיליונות ציונים ותעודת שחרור מצה\"ל",
+      "description": "מתורגמים ומאושרים באפוסטיל (רלוונטי לראיון שגרירות DS-260 ולרישום לימודים).",
+      "is_critical": 0,
+      "is_completed": 0
+    },
+    {
+      "id": 8,
+      "group_name": "israel_docs",
+      "step_order": 4,
+      "title": "אישור ביטוח רכב על היעדר תביעות ל-3 שנים",
+      "description": "מכתב רשמי באנגלית מחברת הביטוח בישראל להוזלת פרמיות ביטוח הרכב בארה\"ב.",
+      "is_critical": 0,
+      "is_completed": 0
+    },
+    {
+      "id": 9,
+      "group_name": "us_landing",
+      "step_order": 1,
+      "title": "הגעה לקומפלקס דירות מנוהל (Apartment Community) או מכתב Offer Letter",
+      "description": "הימנעות מסירוב בעלי בתים פרטיים בהיעדר Credit Score אמריקאי.",
+      "is_critical": 0,
+      "is_completed": 0
+    },
+    {
+      "id": 10,
+      "group_name": "us_landing",
+      "step_order": 2,
+      "title": "קבלת SSN ופתיחת Secured Credit Card / העברת Amex",
+      "description": "שמירה על ניצול מסגרת מתחת ל-30% ותשלום מלא בזמן לבניית ציון 680–700+ תוך 6–12 חודשים.",
+      "is_critical": 1,
+      "is_completed": 0
+    },
+    {
+      "id": 11,
+      "group_name": "us_landing",
+      "step_order": 3,
+      "title": "המרת רישיון נהיגה ב-DMV בהקדם האפשרי",
+      "description": "מבחן תיאוריה (בחלק מהמדינות גם בעברית) + מבחן מעשי — חוסך מאות דולרים בחודש בביטוח הרכב.",
+      "is_critical": 1,
+      "is_completed": 0
+    },
+    {
+      "id": 12,
+      "group_name": "us_landing",
+      "step_order": 4,
+      "title": "הגשת כרטיסי DV Lottery כפולים בכל אוקטובר (אתה + אשתך)",
+      "description": "רישום שני טפסים נפרדים על בסיס ארץ הלידה אוקראינה עם תמונות עדכניות וכל הילדות.",
+      "is_critical": 0,
+      "is_completed": 0
+    }
+  ],
+  "sources": [
+    {
+      "id": 17,
+      "category": "אתרי ערים ו-Niche",
+      "title": "City of Plano, TX (Official)",
+      "url": "https://www.plano.gov/",
+      "description": "הפורטל הרשמי של העיר פלאנו, טקסס."
+    },
+    {
+      "id": 18,
+      "category": "אתרי ערים ו-Niche",
+      "title": "Living in Plano, TX — Niche",
+      "url": "https://www.niche.com/places-to-live/plano-collin-tx/",
+      "description": "תמונות, דירוג בתי ספר וסקירת שכונות בפלאנו."
+    },
+    {
+      "id": 19,
+      "category": "אתרי ערים ו-Niche",
+      "title": "City of Frisco, TX (Official)",
+      "url": "https://www.friscotexas.gov/",
+      "description": "הפורטל הרשמי של העיר פריסקו, טקסס."
+    },
+    {
+      "id": 20,
+      "category": "אתרי ערים ו-Niche",
+      "title": "Living in Frisco, TX — Niche",
+      "url": "https://www.niche.com/places-to-live/frisco-collin-tx/",
+      "description": "תמונות ופרופיל שכונתי של פריסקו."
+    },
+    {
+      "id": 21,
+      "category": "אתרי ערים ו-Niche",
+      "title": "City of Katy, TX (Official)",
+      "url": "https://www.cityofkaty.com/",
+      "description": "הפורטל הרשמי של קייטי, טקסס."
+    },
+    {
+      "id": 22,
+      "category": "אתרי ערים ו-Niche",
+      "title": "Living in Katy, TX — Niche",
+      "url": "https://www.niche.com/places-to-live/katy-fort-bend-tx/",
+      "description": "תמונות ודירוגים של קייטי, טקסס."
+    },
+    {
+      "id": 23,
+      "category": "אתרי ערים ו-Niche",
+      "title": "City of Sugar Land, TX (Official)",
+      "url": "https://www.sugarlandtx.gov/",
+      "description": "הפורטל הרשמי של שוגר לנד, טקסס."
+    },
+    {
+      "id": 24,
+      "category": "אתרי ערים ו-Niche",
+      "title": "Living in Sugar Land, TX — Niche",
+      "url": "https://www.niche.com/places-to-live/sugar-land-fort-bend-tx/",
+      "description": "תמונות ודירוגים של שוגר לנד."
+    },
+    {
+      "id": 25,
+      "category": "אתרי ערים ו-Niche",
+      "title": "City of Alpharetta, GA (Official)",
+      "url": "https://www.alpharetta.ga.us/",
+      "description": "הפורטל הרשמי של אלפארטה, ג'ורג'יה."
+    },
+    {
+      "id": 26,
+      "category": "אתרי ערים ו-Niche",
+      "title": "Living in Alpharetta, GA — Niche",
+      "url": "https://www.niche.com/places-to-live/alpharetta-fulton-ga/",
+      "description": "תמונות ודירוגים של אלפארטה."
+    },
+    {
+      "id": 27,
+      "category": "אתרי ערים ו-Niche",
+      "title": "City of Johns Creek, GA (Official)",
+      "url": "https://www.johnscreekga.gov/",
+      "description": "הפורטל הרשמי של ג'ונס קריק, ג'ורג'יה."
+    },
+    {
+      "id": 28,
+      "category": "אתרי ערים ו-Niche",
+      "title": "Living in Johns Creek, GA — Niche",
+      "url": "https://www.niche.com/places-to-live/johns-creek-fulton-ga/",
+      "description": "תמונות ודירוגים של ג'ונס קריק."
+    },
+    {
+      "id": 29,
+      "category": "אתרי ערים ו-Niche",
+      "title": "City of Beachwood, OH (Official)",
+      "url": "https://www.beachwoodohio.com/",
+      "description": "הפורטל הרשמי של ביצ'ווד, אוהיו."
+    },
+    {
+      "id": 30,
+      "category": "אתרי ערים ו-Niche",
+      "title": "City of Carmel, IN (Official)",
+      "url": "https://www.carmel.in.gov/",
+      "description": "הפורטל הרשמי של כרמל, אינדיאנה."
+    },
+    {
+      "id": 31,
+      "category": "אתרי ערים ו-Niche",
+      "title": "Cherry Hill Township, NJ (Official)",
+      "url": "https://www.chnj.gov/",
+      "description": "הפורטל הרשמי של צ'רי היל, ניו ג'רזי."
+    },
+    {
+      "id": 5,
+      "category": "הגירה וויזות",
+      "title": "Official Diversity Visa Program (U.S. Department of State)",
+      "url": "https://dvprogram.state.gov/",
+      "description": "האתר הרשמי והיחיד להרשמה חינמית להגרלת הגרין קארד."
+    },
+    {
+      "id": 10,
+      "category": "מאגרי נתונים רשמיים",
+      "title": "Zillow Research Data",
+      "url": "https://www.zillow.com/research/data/",
+      "description": "נתוני שכר דירה חציוני בפרברי ארה\"ב."
+    },
+    {
+      "id": 11,
+      "category": "מאגרי נתונים רשמיים",
+      "title": "Realtor.com Research Data",
+      "url": "https://www.realtor.com/research/data/",
+      "description": "מאגרי שכירות ונדל\"ן פדרליים."
+    },
+    {
+      "id": 12,
+      "category": "מאגרי נתונים רשמיים",
+      "title": "Numbeo Cost of Living Index",
+      "url": "https://www.numbeo.com/cost-of-living/",
+      "description": "מדדי מחירים לצרכן לפי מטרופולינים."
+    },
+    {
+      "id": 13,
+      "category": "מאגרי נתונים רשמיים",
+      "title": "U.S. Bureau of Labor Statistics (BLS) — CPI",
+      "url": "https://www.bls.gov/cpi/",
+      "description": "מדד המחירים לצרכן הרשמי של ממשלת ארה\"ב."
+    },
+    {
+      "id": 14,
+      "category": "מאגרי נתונים רשמיים",
+      "title": "Texas Comptroller of Public Accounts",
+      "url": "https://comptroller.texas.gov/",
+      "description": "אישור רשמי: 0% מס הכנסה מדינתי בטקסס."
+    },
+    {
+      "id": 15,
+      "category": "מאגרי נתונים רשמיים",
+      "title": "Georgia Department of Revenue",
+      "url": "https://dor.georgia.gov/",
+      "description": "שיעורי מס הכנסה מדינתי בג'ורג'יה (~5.39%)."
+    },
+    {
+      "id": 16,
+      "category": "מאגרי נתונים רשמיים",
+      "title": "KFF Employer Health Benefits Survey",
+      "url": "https://www.kff.org/health-costs/",
+      "description": "סקר השתתפות עצמית ועלויות ביטוחי מעסיק בארה\"ב."
+    },
+    {
+      "id": 6,
+      "category": "סוכרת וביטוח",
+      "title": "Omnipod — Cost, Coverage & Savings Access in the US",
+      "url": "https://www.omnipod.com/is-omnipod-right-for-me/coverage",
+      "description": "בדיקת כיסוי ביטוחי ותוכניות סבסוד Copay בארה\"ב."
+    },
+    {
+      "id": 7,
+      "category": "סוכרת וביטוח",
+      "title": "Omnipod 5 with FreeStyle Libre Sensor Integration",
+      "url": "https://www.omnipod.com/what-is-omnipod/omnipod-5/sensors/freestyle-libre-integration",
+      "description": "מדריך תאימות ומרשמים בין אומניפוד 5 לחיישני ליברה."
+    },
+    {
+      "id": 8,
+      "category": "סוכרת וביטוח",
+      "title": "Abbott FreeStyle Libre — US Insurance Coverage & Savings",
+      "url": "https://www.freestyleprovider.abbott/us-en/cost-access.html",
+      "description": "זכאות וחיסכון לחיישני FreeStyle Libre בארה\"ב."
+    },
+    {
+      "id": 9,
+      "category": "סוכרת וביטוח",
+      "title": "ביטוח לאומי — שהות בחוץ לארץ של ילד המקבל גמלה",
+      "url": "https://www.btl.gov.il/About/faq/yelednehe/Pages/hol.aspx",
+      "description": "כללי הפסקת גמלת ילד נכה לאחר 3 חודשים בחו\"ל."
+    },
+    {
+      "id": 1,
+      "category": "סיפורים אישיים מהשטח",
+      "title": "Reddit r/Israel — משפחה מראש העין לאטלנטה (אפריל 2026)",
+      "url": "https://www.reddit.com/r/Israel/comments/1sd0gam/finances_and_war_lets_talk_about_it/",
+      "description": "שיתוף מפורט של הוצאות בישראל מול אטלנטה, 4 ילדים, רכבים וחינוך ציבורי."
+    },
+    {
+      "id": 2,
+      "category": "סיפורים אישיים מהשטח",
+      "title": "ארץ חדשה — סיפור המעבר לסן דייגו (פברואר 2026)",
+      "url": "https://relocating.co.il/relocating-to-san-diego-us/",
+      "description": "ראיון אישי עם בני נוער על ההתאקלמות בסן דייגו, צופי צבר ו-IAC."
+    },
+    {
+      "id": 3,
+      "category": "סיפורים אישיים מהשטח",
+      "title": "ארץ חדשה — מדריך רילוקיישן פרקטי לארה\"ב",
+      "url": "https://relocating.co.il/relocation-guide-to-the-usa/",
+      "description": "מדריך שטח מעודכן למשפחות ישראליות."
+    },
+    {
+      "id": 4,
+      "category": "סיפורים אישיים מהשטח",
+      "title": "Reddit r/Israel — דיון יוסטון מול קליפורניה וניו יורק (ינואר 2026)",
+      "url": "https://www.reddit.com/r/Israel/comments/1q9u5q7/moving_from_israel_to_the_us/",
+      "description": "השוואת קהילה, מס מדינתי ועלויות מחיה."
+    }
+  ]
+}

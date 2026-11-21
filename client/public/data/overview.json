@@ -1,0 +1,98 @@
+{
+  "profile": {
+    "id": 1,
+    "title": "פרופיל משפחת היעד (4 נפשות)",
+    "parents_origin": "זוג הורים ילידי אוקראינה שעלו לישראל בילדות ושירתו בצה\"ל (זכאים להגרלת DV על בסיס אוקראינה עם 2 כרטיסים בשנה)",
+    "children_summary": "2 בנות ילידות ישראל (כולל בת כמעט 9)",
+    "medical_profile": "סוכרת סוג 1 (T1D) לבת ה-9 — מטופלת כיום בישראל עם Omnipod 5 + FreeStyle Libre Plus ומקבלת גמלת ילד נכה (~3,800 ש\"ח/חודש)",
+    "employment_profile": "עובד הייטק בחברה עם סניף/נוכחות בארה\"ב (פוטנציאל L-1 או הגשת DV Lottery במקביל)",
+    "capital_ils": 500000,
+    "capital_usd": 135000,
+    "english_level": "אחד ההורים מבין ועובד מול אמריקאים; בת הזוג עם אנגלית בסיסית (אינו מהווה מכשול לגרין קארד)",
+    "relatives_in_us": "קרובים רחוקים (דוד וכו') שחיים שנים בארה\"ב ואזרחים — לא יכולים למשוך ישירות, אך יכולים לשמש כ-Joint Sponsor (I-864) בעת הצורך"
+  },
+  "checklistStats": [
+    {
+      "group_name": "diabetes_prep",
+      "total": 4,
+      "completed": 0
+    },
+    {
+      "group_name": "israel_docs",
+      "total": 4,
+      "completed": 0
+    },
+    {
+      "group_name": "us_landing",
+      "total": 4,
+      "completed": 0
+    }
+  ],
+  "locationsSummary": [
+    {
+      "slug": "beachwood",
+      "name_he": "ביצ'ווד, אוהיו (פרבר קליבלנד)",
+      "state_he": "אוהיו",
+      "total_monthly_min": 5600,
+      "total_monthly_max": 6400,
+      "state_tax_pct": 3.5,
+      "fema_risk_level": "נמוך מאוד (Very Low)",
+      "diabetes_hospital": "Cleveland Clinic Children's"
+    },
+    {
+      "slug": "carmel",
+      "name_he": "כרמל, אינדיאנה (פרבר אינדיאנפוליס)",
+      "state_he": "אינדיאנה",
+      "total_monthly_min": 5800,
+      "total_monthly_max": 6600,
+      "state_tax_pct": 3.05,
+      "fema_risk_level": "נמוך עד מתון (Relatively Low)",
+      "diabetes_hospital": "Riley Children's Health"
+    },
+    {
+      "slug": "houston",
+      "name_he": "יוסטון (קייטי / שוגר לנד)",
+      "state_he": "טקסס",
+      "total_monthly_min": 6220,
+      "total_monthly_max": 7820,
+      "state_tax_pct": 0,
+      "fema_risk_level": "גבוה מאוד (Very High)",
+      "diabetes_hospital": "Texas Children's Hospital"
+    },
+    {
+      "slug": "atlanta",
+      "name_he": "אטלנטה (אלפארטה / ג'ונס קריק)",
+      "state_he": "ג'ורג'יה",
+      "total_monthly_min": 6500,
+      "total_monthly_max": 8120,
+      "state_tax_pct": 5.39,
+      "fema_risk_level": "בינוני (Moderate)",
+      "diabetes_hospital": "Children's Healthcare of Atlanta (CHOA)"
+    },
+    {
+      "slug": "dallas",
+      "name_he": "דאלאס (פלאנו / פריסקו)",
+      "state_he": "טקסס",
+      "total_monthly_min": 6570,
+      "total_monthly_max": 8310,
+      "state_tax_pct": 0,
+      "fema_risk_level": "גבוה (Relatively/Very High)",
+      "diabetes_hospital": "Children's Medical Center Dallas"
+    },
+    {
+      "slug": "cherry-hill",
+      "name_he": "צ'רי היל, ניו ג'רזי (פרבר פילדלפיה)",
+      "state_he": "ניו ג'רזי",
+      "total_monthly_min": 6700,
+      "total_monthly_max": 7600,
+      "state_tax_pct": 5.9,
+      "fema_risk_level": "נמוך (Low)",
+      "diabetes_hospital": "CHOP (Children's Hospital of Philadelphia)"
+    }
+  ],
+  "counts": {
+    "sources": 31,
+    "stories": 3,
+    "locations": 6
+  }
+}

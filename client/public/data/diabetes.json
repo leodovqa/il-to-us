@@ -1,0 +1,152 @@
+{
+  "comparisons": [
+    {
+      "id": 1,
+      "section": "israel_vs_usa",
+      "topic": "קצבה כספית חודשית",
+      "israel_or_gc": "ישראל: גמלת ילד נכה (~3,800+ ש\"ח/חודש מביטוח לאומי)",
+      "usa_or_citizen": "ארה\"ב: 0$ קצבה ישירה לבעלי ויזות עבודה (L-1/E-2/H-1B)",
+      "critical_note": "ביטוח לאומי מפסיק לשלם את הגמלה לאחר 3 חודשים ממועד היציאה מהארץ! (תוכנית SSI פדרלית מיועדת לאזרחים מעוטי יכולת בלבד)."
+    },
+    {
+      "id": 2,
+      "section": "israel_vs_usa",
+      "topic": "כיסוי מחלה קיימת (T1D)",
+      "israel_or_gc": "ישראל: סל בריאות ממלכתי אוניברסלי",
+      "usa_or_citizen": "ארה\"ב: ביטוח מעסיק מסחרי (ACA / Obamacare)",
+      "critical_note": "על פי חוק ה-ACA, ביטוח קבוצתי של מעסיק חייב לכסות סוכרת סוג 1 מהיום הראשון ללא תקופת המתנה וללא החרגות."
+    },
+    {
+      "id": 3,
+      "section": "israel_vs_usa",
+      "topic": "Omnipod 5",
+      "israel_or_gc": "ישראל: ללא תשלום בסל הבריאות",
+      "usa_or_citizen": "ארה\"ב: מכוסה ב->90% מהתוכניות המסחריות (Pharmacy Benefit)",
+      "critical_note": "50% מהמבוטחים משלמים $30 ומטה לחודש (לעיתים $0 ב-Platinum/Tier 1); ניתן להוריד ל-$0–$25 בעזרת Insulet Savings Card."
+    },
+    {
+      "id": 4,
+      "section": "israel_vs_usa",
+      "topic": "FreeStyle Libre (2 Plus / 3 Plus)",
+      "israel_or_gc": "ישראל: ללא תשלום בסל הבריאות",
+      "usa_or_citizen": "ארה\"ב: מאושר ומשולב ישירות עם Omnipod 5 כמרשם בבית מרקחת",
+      "critical_note": "Abbott מפעילה תוכנית Savings Card למבוטחים מסחריים שמקטינה עלות קופה ל-$0–$25/חודש."
+    },
+    {
+      "id": 5,
+      "section": "gc_vs_citizen",
+      "topic": "ביטוח בריאות מהמעסיק (Commercial)",
+      "israel_or_gc": "בעל גרין קארד: זכאות מלאה זהה לחלוטין",
+      "usa_or_citizen": "אזרח אמריקאי: זכאות מלאה זהה לחלוטין",
+      "critical_note": "אין שום הבדל בפרמיות, כיסוי או Formulary."
+    },
+    {
+      "id": 6,
+      "section": "gc_vs_citizen",
+      "topic": "שוק הביטוח הפדרלי (ACA Marketplace)",
+      "israel_or_gc": "בעל גרין קארד: זכאי לרכישה וסבסוד מהיום הראשון",
+      "usa_or_citizen": "אזרח אמריקאי: זכאי לרכישה וסבסוד מהיום הראשון",
+      "critical_note": "זהה לחלוטין מיום הנחיתה עם גרין קארד."
+    },
+    {
+      "id": 7,
+      "section": "gc_vs_citizen",
+      "topic": "Medicaid (ביטוח למעוטי הכנסה)",
+      "israel_or_gc": "בעל גרין קארד: מחסום 5 שנים (The 5-Year Bar)",
+      "usa_or_citizen": "אזרח אמריקאי: זכאות מיידית לפי רף הכנסה",
+      "critical_note": "החרגה קריטית לילדים: 35+ מדינות (כולל NJ, CA, NY, PA) אימצו CHIPRA שמבטל המתנה של 5 שנים לילדים."
+    },
+    {
+      "id": 8,
+      "section": "gc_vs_citizen",
+      "topic": "קצבת נכות מעבודה (SSDI)",
+      "israel_or_gc": "בעל גרין קארד: זכאות זהה לפי צבירת נקודות עבודה",
+      "usa_or_citizen": "אזרח אמריקאי: זכאות זהה לפי צבירת נקודות עבודה",
+      "critical_note": "ממומן ממסי שכר (FICA) — אין עדיפות לאזרח."
+    },
+    {
+      "id": 9,
+      "section": "gc_vs_citizen",
+      "topic": "קצבת סעד לנכים (SSI)",
+      "israel_or_gc": "בעל גרין קארד: לא זכאי עד צבירת 40 רבעונים (10 שנים) או אזרחות",
+      "usa_or_citizen": "אזרח אמריקאי: זכאי לפי מבחן הכנסה",
+      "critical_note": "הבדל מהותי רק במקרה של משבר כלכלי עמוק."
+    },
+    {
+      "id": 10,
+      "section": "gc_vs_citizen",
+      "topic": "דמי אבטלה ופנסיה (Social Security)",
+      "israel_or_gc": "בעל גרין קארד: זכאי לדמי אבטלה ולפנסיה (אחרי 10 שנות מס)",
+      "usa_or_citizen": "אזרח אמריקאי: זכאי לדמי אבטלה ולפנסיה ללא הגבלת שהייה בחו\"ל",
+      "critical_note": "שהייה של בעל גרין קארד מעל 6 חודשים מחוץ לארה\"ב עלולה להקפיא קצבה."
+    }
+  ],
+  "checklist": [
+    {
+      "id": 1,
+      "group_name": "diabetes_prep",
+      "step_order": 1,
+      "title": "בדיקת פוליסת הביטוח לפני חתימה על חוזה",
+      "description": "לוודא ש-Omnipod 5 ו-FreeStyle Libre 2/3 Plus מופיעים ב-Formulary בדרגת Tier 1/2, ולהעדיף PPO/EPO על פני High Deductible (HDHP).",
+      "is_critical": 1,
+      "is_completed": 0
+    },
+    {
+      "id": 2,
+      "group_name": "diabetes_prep",
+      "step_order": 2,
+      "title": "הצטיידות במלאי רפואי ל-3 עד 4 חודשים מראש",
+      "description": "חוק הברזל: לקחת מרופא הסוכרת וקופת החולים מלאי מקסימלי של פודים, סנסורים, אינסולין וציוד גיבוי (עטים, מד סוכר, קטונים) לפני הטיסה.",
+      "is_critical": 1,
+      "is_completed": 0
+    },
+    {
+      "id": 3,
+      "group_name": "diabetes_prep",
+      "step_order": 3,
+      "title": "תרגום תיק רפואי וייצוא Glooko / LibreView",
+      "description": "סיכום מחלה באנגלית (קוד E10.9), מינוני Basal / I:C / ISF, בדיקת HbA1c אחרונה וייצוא PDF מלא של נתוני הסנסור והמשאבה.",
+      "is_critical": 1,
+      "is_completed": 0
+    },
+    {
+      "id": 4,
+      "group_name": "diabetes_prep",
+      "step_order": 4,
+      "title": "פנייה לרופא ילדים, אנדוקרינולוג ו-Prior Authorization",
+      "description": "מיד עם הפעלת הביטוח וה-SSN: קביעת תור ל-PCP (להפניה אם נדרשת), תור ל-Pediatric Endocrinologist והגשת Prior Authorization דיגיטלית.",
+      "is_critical": 0,
+      "is_completed": 0
+    }
+  ],
+  "sources": [
+    {
+      "id": 6,
+      "category": "סוכרת וביטוח",
+      "title": "Omnipod — Cost, Coverage & Savings Access in the US",
+      "url": "https://www.omnipod.com/is-omnipod-right-for-me/coverage",
+      "description": "בדיקת כיסוי ביטוחי ותוכניות סבסוד Copay בארה\"ב."
+    },
+    {
+      "id": 7,
+      "category": "סוכרת וביטוח",
+      "title": "Omnipod 5 with FreeStyle Libre Sensor Integration",
+      "url": "https://www.omnipod.com/what-is-omnipod/omnipod-5/sensors/freestyle-libre-integration",
+      "description": "מדריך תאימות ומרשמים בין אומניפוד 5 לחיישני ליברה."
+    },
+    {
+      "id": 8,
+      "category": "סוכרת וביטוח",
+      "title": "Abbott FreeStyle Libre — US Insurance Coverage & Savings",
+      "url": "https://www.freestyleprovider.abbott/us-en/cost-access.html",
+      "description": "זכאות וחיסכון לחיישני FreeStyle Libre בארה\"ב."
+    },
+    {
+      "id": 9,
+      "category": "סוכרת וביטוח",
+      "title": "ביטוח לאומי — שהות בחוץ לארץ של ילד המקבל גמלה",
+      "url": "https://www.btl.gov.il/About/faq/yelednehe/Pages/hol.aspx",
+      "description": "כללי הפסקת גמלת ילד נכה לאחר 3 חודשים בחו\"ל."
+    }
+  ]
+}
