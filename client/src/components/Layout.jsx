@@ -28,14 +28,9 @@ export default function Layout({ children }) {
     <div className="min-h-screen flex flex-col lg:flex-row bg-slate-950 text-slate-100">
       {/* Mobile Header */}
       <header className="lg:hidden bg-slate-900/95 backdrop-blur-md border-b border-slate-800 text-white px-4 py-3 flex items-center justify-between sticky top-0 z-30">
-        <div className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center font-bold text-sm shadow-lg shadow-blue-500/20">
-            IL→US
-          </div>
-          <div>
-            <div className="font-bold text-sm leading-tight">רילוקיישן ישראל–ארה״ב</div>
-            <div className="text-[11px] text-slate-400">מאגר נתונים והשוואות</div>
-          </div>
+        <div>
+          <div className="font-bold text-sm leading-tight">רילוקיישן ישראל–ארה״ב</div>
+          <div className="text-[11px] text-slate-400">מאגר נתונים והשוואות</div>
         </div>
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
@@ -53,14 +48,9 @@ export default function Layout({ children }) {
         }`}
       >
         <div className="p-5 border-b border-slate-800 hidden lg:block">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center font-extrabold text-sm shadow-lg shadow-blue-500/25">
-              IL→US
-            </div>
-            <div>
-              <h1 className="font-bold text-base leading-snug text-white">רילוקיישן ישראל–ארה״ב</h1>
-              <p className="text-xs text-slate-400">מערכת השוואה ותכנון (2023–2026)</p>
-            </div>
+          <div>
+            <h1 className="font-bold text-base leading-snug text-white">רילוקיישן ישראל–ארה״ב</h1>
+            <p className="text-xs text-slate-400">מערכת השוואה ותכנון (2023–2026)</p>
           </div>
         </div>
 
