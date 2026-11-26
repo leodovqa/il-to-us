@@ -3,12 +3,13 @@ services:
     build:
       context: .
       dockerfile: server/Dockerfile
+    command: node --watch server/index.js
     ports:
       - "3001:3001"
     environment:
       - PORT=3001
     volumes:
-      - ./server/db:/app/server/db
+      - ./server:/app/server
     restart: unless-stopped
 
   client:
@@ -19,6 +20,12 @@ services:
       - "5178:5178"
     environment:
       - VITE_API_TARGET=http://server:3001
+      - CHOKIDAR_USEPOLLING=true
+    volumes:
+      - ./client/src:/app/client/src
+      - ./client/public:/app/client/public
+      - ./client/index.html:/app/client/index.html
+      - ./client/vite.config.js:/app/client/vite.config.js
     depends_on:
       - server
     restart: unless-stopped

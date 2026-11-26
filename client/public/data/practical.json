@@ -3,16 +3,16 @@
     {
       "id": 1,
       "category": "טיסות, שילוח מזוודות ואגרות מעבר",
-      "amount_min_usd": 5000,
-      "amount_max_usd": 7000,
-      "details": "כרטיסי טיסה ל-4 נפשות, אגרות ויזה/גרין קארד ומשלוח ציוד ראשוני"
+      "amount_min_usd": 5500,
+      "amount_max_usd": 8500,
+      "details": "כרטיסי טיסה ל-4 נפשות, אגרות ויזה/גרין קארד ($560 × 4 בוויזת הגירה) ומשלוח ציוד ראשוני"
     },
     {
       "id": 2,
       "category": "כניסה לבית שכור (ללא Credit Score)",
       "amount_min_usd": 5000,
       "amount_max_usd": 7500,
-      "details": "חודש ראשון + חודש אחרון + פיקדון ביטחון מוגדל (לבית של ~$2,400/חודש)"
+      "details": "חודש ראשון + חודש אחרון + פיקדון ביטחון מוגדל (TX/GA/OH/IN ללא תקרה; ב-NJ החוק מגביל פיקדון ל-1.5 חודשי שכירות)"
     },
     {
       "id": 3,
@@ -24,23 +24,23 @@
     {
       "id": 4,
       "category": "רכישת 2 רכבים משומשים במזומן",
-      "amount_min_usd": 18000,
-      "amount_max_usd": 24000,
-      "details": "טויוטה/הונדה אמינות דרך CarMax או סוכנויות כדי להימנע מריבית של 10%–18%"
+      "amount_min_usd": 26000,
+      "amount_max_usd": 36000,
+      "details": "טויוטה/הונדה אמינות דרך CarMax (ממוצע ~$26K לרכב ב-2026) כדי להימנע מריבית של 14%–21% ללא Credit Score"
     },
     {
       "id": 5,
       "category": "ביטוח רכב לחצי שנה ראשונה",
       "amount_min_usd": 2000,
-      "amount_max_usd": 3000,
-      "details": "תעריף ראשוני גבוה לבעלי רישיון זר עד להמרה לרישיון DMV מקומי"
+      "amount_max_usd": 4500,
+      "details": "תעריף ראשוני לבעלי רישיון זר ($2,000–$3,000 לחובה/צד ג'; $3,500–$4,500+ למקיף מלא) עד להמרה לרישיון DMV"
     },
     {
       "id": 6,
       "category": "קרן חירום רפואית (Deductible + ציוד)",
       "amount_min_usd": 3000,
-      "amount_max_usd": 3000,
-      "details": "כיסוי השתתפות עצמית ראשונית (Deductible) וסבסוד ציוד סוכרת"
+      "amount_max_usd": 5000,
+      "details": "כיסוי השתתפות עצמית ראשונית (Deductible משפחתי ממוצע ~$3,500–$4,000) וסבסוד ציוד סוכרת"
     }
   ],
   "checklists": [
@@ -49,7 +49,7 @@
       "group_name": "israel_docs",
       "step_order": 1,
       "title": "תעודות לידה ונישואין מקוריות עם אפוסטיל",
-      "description": "הנפקת תעודות רשמיות, תרגום לאנגלית וחותמת אפוסטיל.",
+      "description": "הנפקת תעודות רשמיות, תרגום מאושר לאנגלית וחותמת אפוסטיל (להגירה/משפט; לבית ספר ציבורי מספיק תרגום מאושר).",
       "is_critical": 1,
       "is_completed": 0
     },
@@ -57,8 +57,8 @@
       "id": 6,
       "group_name": "israel_docs",
       "step_order": 2,
-      "title": "פנקסי חיסונים מלאים מתורגמים לאנגלית",
-      "description": "חובה מוחלטת לרישום לבתי ספר ציבוריים בארה\"ב — ללא חיסונים מאומתים הילדות לא מורשות להיכנס לכיתה.",
+      "title": "פנקסי חיסונים מתורגמים לאנגלית + המרה לטופס אמריקאי",
+      "description": "חובה לרישום לבתי ספר ציבוריים (רוב המדינות נותנות 30–60 יום חסד להשלמות; רופא ילדים אמריקאי מעתיק את פנקס טיפת חלב לטופס המדינתי).",
       "is_critical": 1,
       "is_completed": 0
     },
@@ -76,7 +76,7 @@
       "group_name": "israel_docs",
       "step_order": 4,
       "title": "אישור ביטוח רכב על היעדר תביעות ל-3 שנים",
-      "description": "מכתב רשמי באנגלית מחברת הביטוח בישראל להוזלת פרמיות ביטוח הרכב בארה\"ב.",
+      "description": "מכתב רשמי באנגלית מישראל — מרבית המבטחות הגדולות (GEICO/Progressive) לא מכירות בו, אך סוכן עצמאי עשוי להיעזר בו להוזלה.",
       "is_critical": 0,
       "is_completed": 0
     },
@@ -93,8 +93,8 @@
       "id": 10,
       "group_name": "us_landing",
       "step_order": 2,
-      "title": "קבלת SSN ופתיחת Secured Credit Card / העברת Amex",
-      "description": "שמירה על ניצול מסגרת מתחת ל-30% ותשלום מלא בזמן לבניית ציון 680–700+ תוך 6–12 חודשים.",
+      "title": "קבלת SSN ופתיחת Secured Credit Card / Authorized User",
+      "description": "בניית אשראי עם Secured Card (Capital One/Discover) מתחת ל-30% ניצול. שימו לב: העברת Amex מישראל אינה זמינה (מונפק בזיכיון ע\"י ישראכרט/פועלים).",
       "is_critical": 1,
       "is_completed": 0
     },
@@ -103,7 +103,7 @@
       "group_name": "us_landing",
       "step_order": 3,
       "title": "המרת רישיון נהיגה ב-DMV בהקדם האפשרי",
-      "description": "מבחן תיאוריה (בחלק מהמדינות גם בעברית) + מבחן מעשי — חוסך מאות דולרים בחודש בביטוח הרכב.",
+      "description": "מבחן תיאוריה + מעשי — חוסך מאות דולרים בחודש בביטוח. שימו לב: אף אחת מ-5 מדינות היעד לא מציעה מבחן בעברית (IN ו-NJ מאפשרות/מספקות מתורגמן).",
       "is_critical": 1,
       "is_completed": 0
     },
@@ -224,11 +224,53 @@
       "description": "הפורטל הרשמי של צ'רי היל, ניו ג'רזי."
     },
     {
+      "id": 32,
+      "category": "אתרי ערים ו-Niche",
+      "title": "Cranberry Township, PA (Official)",
+      "url": "https://www.cranberrytownship.org/",
+      "description": "הפורטל הרשמי של קרנברי טאונשיפ, פנסילבניה."
+    },
+    {
+      "id": 33,
+      "category": "אתרי ערים ו-Niche",
+      "title": "Living in Cranberry Township, PA — Niche",
+      "url": "https://www.niche.com/places-to-live/cranberry-township-butler-pa/",
+      "description": "תמונות, דירוגי בתי ספר ופשיעה בקרנברי טאונשיפ."
+    },
+    {
+      "id": 34,
+      "category": "אתרי ערים ו-Niche",
+      "title": "City of Powell, OH (Official)",
+      "url": "https://www.cityofpowell.us/",
+      "description": "הפורטל הרשמי של העיר פאוול, אוהיו."
+    },
+    {
+      "id": 35,
+      "category": "אתרי ערים ו-Niche",
+      "title": "Living in Powell, OH — Niche",
+      "url": "https://www.niche.com/places-to-live/powell-delaware-oh/",
+      "description": "תמונות ודירוגי בתי ספר בפאוול, אוהיו."
+    },
+    {
+      "id": 36,
+      "category": "אתרי ערים ו-Niche",
+      "title": "City of Mequon, WI (Official)",
+      "url": "https://www.cityofmequonwi.gov/",
+      "description": "הפורטל הרשמי של העיר מקוון, ויסקונסין."
+    },
+    {
+      "id": 37,
+      "category": "אתרי ערים ו-Niche",
+      "title": "Living in Mequon, WI — Niche",
+      "url": "https://www.niche.com/places-to-live/mequon-ozaukee-wi/",
+      "description": "תמונות ודירוגי בתי ספר במקוון, ויסקונסין."
+    },
+    {
       "id": 5,
       "category": "הגירה וויזות",
       "title": "Official Diversity Visa Program (U.S. Department of State)",
       "url": "https://dvprogram.state.gov/",
-      "description": "האתר הרשמי והיחיד להרשמה חינמית להגרלת הגרין קארד."
+      "description": "האתר הרשמי והיחיד להרשמה להגרלת הגרין קארד (אגרת $1 לטופס)."
     },
     {
       "id": 10,
@@ -270,7 +312,7 @@
       "category": "מאגרי נתונים רשמיים",
       "title": "Georgia Department of Revenue",
       "url": "https://dor.georgia.gov/",
-      "description": "שיעורי מס הכנסה מדינתי בג'ורג'יה (~5.39%)."
+      "description": "שיעורי מס הכנסה מדינתי בג'ורג'יה (4.99% ב-2026)."
     },
     {
       "id": 16,
@@ -305,14 +347,14 @@
       "category": "סוכרת וביטוח",
       "title": "ביטוח לאומי — שהות בחוץ לארץ של ילד המקבל גמלה",
       "url": "https://www.btl.gov.il/About/faq/yelednehe/Pages/hol.aspx",
-      "description": "כללי הפסקת גמלת ילד נכה לאחר 3 חודשים בחו\"ל."
+      "description": "כללי הפסקת גמלת ילד נכה לאחר חודש היציאה + 3 חודשים בחו\"ל."
     },
     {
       "id": 1,
       "category": "סיפורים אישיים מהשטח",
-      "title": "Reddit r/Israel — משפחה מראש העין לאטלנטה (אפריל 2026)",
-      "url": "https://www.reddit.com/r/Israel/comments/1sd0gam/finances_and_war_lets_talk_about_it/",
-      "description": "שיתוף מפורט של הוצאות בישראל מול אטלנטה, 4 ילדים, רכבים וחינוך ציבורי."
+      "title": "Reddit r/Israel — קהילת ישראלים ברילוקיישן (2025–2026)",
+      "url": "https://www.reddit.com/r/Israel/",
+      "description": "סיכום עדויות הורים על הוצאות בישראל מול אטלנטה, 4 ילדים, רכבים וחינוך ציבורי."
     },
     {
       "id": 2,

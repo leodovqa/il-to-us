@@ -55,8 +55,8 @@ export default function DiabetesPage() {
         <div className="space-y-1 text-sm text-rose-100">
           <div className="font-bold text-base text-rose-300">נקודת מפתח: אין קצבת כסף חודשית בארה״ב — הכל נשען על ביטוח המעסיק</div>
           <p className="text-xs sm:text-sm text-rose-200/90 leading-relaxed">
-            בישראל גמלת ילד נכה (~3,800 ₪/חודש) משולמת בחו״ל עד <strong className="text-white">3 חודשים בלבד</strong> ואז נפסקת.
-            בארה״ב אין תשלום מזומן להורים על ויזת עבודה, אך תחת חוק ה-ACA ביטוח בריאות של מעסיק <strong className="text-white">חייב לכסות סוכרת סוג 1 מהיום הראשון</strong> ללא תקופת המתנה וללא החרגה.
+            בישראל גמלת ילד נכה (1,943 ₪/חודש מגיל 6; 3,820 ₪ עד גיל 6) משולמת בחו״ל <strong className="text-white">חודש היציאה + 3 חודשים בלבד</strong> ואז נפסקת.
+            בארה״ב אין תשלום מזומן להורים על ויזת עבודה, אך תחת חוק ה-ACA ביטוח בריאות של מעסיק <strong className="text-white">חייב לכסות סוכרת סוג 1 ללא החרגה</strong> (תיתכן תקופת המתנה כללית של עד 90 יום לעובד חדש).
           </p>
         </div>
       </section>
@@ -75,7 +75,7 @@ export default function DiabetesPage() {
             למעלה מ-<strong className="text-white">90%</strong> מהמבוטחים בתוכניות מסחריות מכוסים, וכ-<strong className="text-white">50%</strong> משלמים Copay של <strong className="text-white">$30 ומטה לחודש</strong> (או $0 בפוליסות Platinum/Tier 1).
           </p>
           <p className="text-xs text-blue-400 font-medium">
-            טיפ סבסוד: תוכנית Insulet Savings Card מורידה השתתפות עצמית גבוהה ל-$0–$25 בחודש למבוטחים מסחריים.
+            טיפ סבסוד: תוכנית Omnipod Copay Card מורידה השתתפות עצמית ל-$50/חודש (עד $100 הנחה חודשית) למבוטחים מסחריים.
           </p>
         </div>
 
@@ -88,7 +88,7 @@ export default function DiabetesPage() {
           </div>
           <p className="text-xs text-slate-300 leading-relaxed">
             מאושר ומשולב ישירות במערכת Omnipod 5 גם בארה״ב ונאסף כמרשם בבית המרקחת.
-            חברת Abbott מפעילה תוכנית Copay Assistance / Savings Card שמורידה עלויות ל-$0–$25 בחודש.
+            חברת Abbott מפעילה תוכנית Copay Card המגבילה עלות חודשית ל-$75 ומטה עבור 2 סנסורים (ובנוסף שובר התנסות חינמי חד-פעמי ל-Libre 3 Plus אחד).
           </p>
           <p className="text-xs text-amber-300 font-medium">
             שימו לב: בפוליסות High Deductible (HDHP) יש לשלם Deductible שנתי ($1,500–$3,000) בתחילת השנה — עדיף לבחור PPO או EPO!
