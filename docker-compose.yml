@@ -1,0 +1,24 @@
+services:
+  server:
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    ports:
+      - "3001:3001"
+    environment:
+      - PORT=3001
+    volumes:
+      - ./server/db:/app/server/db
+    restart: unless-stopped
+
+  client:
+    build:
+      context: .
+      dockerfile: client/Dockerfile
+    ports:
+      - "5178:5178"
+    environment:
+      - VITE_API_TARGET=http://server:3001
+    depends_on:
+      - server
+    restart: unless-stopped
