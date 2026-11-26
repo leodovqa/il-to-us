@@ -14,7 +14,7 @@ import { api } from '../api/client';
 export default function PracticalPage() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [capitalUsd, setCapitalUsd] = useState(135000);
+  const [capitalUsd, setCapitalUsd] = useState(151500);
 
   useEffect(() => {
     api
@@ -71,13 +71,13 @@ export default function PracticalPage() {
               <span>פירוט הוצאות נחיתה והקמה (חודשים 1–3)</span>
             </h2>
             <p className="text-xs text-slate-400">
-              חישוב מבוסס הון של 500,000 ₪ (~$135,000). התאם את ההון העצמי שלך כדי לראות את יתרת הביטחון.
+              חישוב מבוסס הון של 500,000 ₪ (~$151,500 בשער ~3.30). התאם את ההון העצמי שלך כדי לראות את יתרת הביטחון.
             </p>
           </div>
           <div className="bg-slate-800/70 border border-slate-700 rounded-xl p-3 min-w-[260px] space-y-1">
             <div className="flex justify-between text-xs font-bold text-slate-200">
               <span>הון עצמי:</span>
-              <span>${capitalUsd.toLocaleString()} (~₪{Math.round(capitalUsd * 3.7).toLocaleString()})</span>
+              <span>${capitalUsd.toLocaleString()} (~₪{Math.round(capitalUsd * 3.3).toLocaleString()})</span>
             </div>
             <input
               type="range"
@@ -145,10 +145,10 @@ export default function PracticalPage() {
             <span>רכב, DMV וביטוח</span>
           </div>
           <p className="text-slate-300 leading-relaxed">
-            <strong className="text-white">קניית רכב:</strong> ללא Credit Score, ליסינג או מימון גוררים ריביות של <strong className="text-white">10%–18%</strong>. לכן רוכשים רכב ראשון משומש במזומן (למשל דרך CarMax).
+            <strong className="text-white">קניית רכב:</strong> ללא Credit Score, ליסינג או מימון גוררים ריביות של <strong className="text-white">14%–21%</strong>. לכן רוכשים רכבים משומשים במזומן דרך CarMax (~$26K–$36K לזוג רכבים).
           </p>
           <p className="text-slate-300 leading-relaxed">
-            <strong className="text-white">רישיון נהיגה:</strong> להמיר לרישיון מקומי בהקדם (תיאוריה + טסט מעשי). הוצאת רישיון מקומי + מכתב היעדר תביעות ל-3 שנים מישראל מוזילים את הביטוח במאות דולרים לחודש!
+            <strong className="text-white">רישיון נהיגה:</strong> להמיר לרישיון מקומי בהקדם (תיאוריה + טסט מעשי; אף מדינת יעד לא מציעה עברית, אך IN/NJ מאפשרות מתורגמן). מרבית המבטחות הגדולות אינן מכירות בהיעדר תביעות מישראל, אך סוכן עצמאי עשוי להיעזר בו.
           </p>
         </div>
 
@@ -158,7 +158,7 @@ export default function PracticalPage() {
             <span>בניית Credit Score</span>
           </div>
           <p className="text-slate-300 leading-relaxed">
-            מזומן או Debit Card אינם מייצרים דירוג אשראי. מיד עם קבלת <strong className="text-white">SSN</strong> יש לפתוח <strong className="text-emerald-300">Secured Credit Card</strong> (הפקדת ביטחון בבנק) או להעביר היסטוריה דרך American Express Global Transfer.
+            מזומן או Debit Card אינם מייצרים דירוג אשראי. מיד עם קבלת <strong className="text-white">SSN</strong> יש לפתוח <strong className="text-emerald-300">Secured Credit Card</strong> (הפקדת ביטחון בבנק) או להצטרף כ-Authorized User (שימו לב: העברת Amex מישראל אינה זמינה).
           </p>
           <p className="text-slate-300 leading-relaxed">
             שמירה על ניצול מסגרת מתחת ל-<strong className="text-white">30%</strong> ותשלום מלא בזמן בונים ציון סביר (680–700+) תוך 6–12 חודשים.

@@ -83,7 +83,7 @@ export default function VisasPage() {
             <div className="p-2.5 rounded-lg bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 font-semibold">
               {dualEntry
                 ? '2 מספרי אישור בשנה: טופס 1 (אתה ראשי) + טופס 2 (אשתך ראשית). זכייה באחד = גרין קארד לכולם!'
-                : 'טופס יחיד בשנה (~1% סיכוי). מומלץ להגיש גם על שם בת הזוג.'}
+                : 'טופס יחיד בשנה (~0.66% סיכוי בחירה). מומלץ להגיש גם על שם בת הזוג.'}
             </div>
           </div>
 

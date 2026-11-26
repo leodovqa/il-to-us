@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import {
   LayoutDashboard,
@@ -10,6 +10,8 @@ import {
   Menu,
   X,
   Database,
+  Sun,
+  Moon,
 } from 'lucide-react';
 
 const navItems = [
@@ -23,22 +25,40 @@ const navItems = [
 
 export default function Layout({ children }) {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [theme, setTheme] = useState(() => localStorage.getItem('il-to-us-theme') || 'dark');
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('il-to-us-theme', theme);
+  }, [theme]);
+
+  const toggleTheme = () => setTheme((prev) => (prev === 'dark' ? 'light' : 'dark'));
 
   return (
     <div className="min-h-screen flex flex-col lg:flex-row bg-slate-950 text-slate-100">
       {/* Mobile Header */}
-      <header className="lg:hidden bg-slate-900/95 backdrop-blur-md border-b border-slate-800 text-white px-4 py-3 flex items-center justify-between sticky top-0 z-30">
+      <header className="lg:hidden bg-slate-900/95 backdrop-blur-md border-b border-slate-800 px-4 py-3 flex items-center justify-between sticky top-0 z-30">
         <div>
-          <div className="font-bold text-sm leading-tight">רילוקיישן ישראל–ארה״ב</div>
-          <div className="text-[11px] text-slate-400">מאגר נתונים והשוואות</div>
+          <div className="font-bold text-sm leading-tight text-slate-100">רילוקיישן ישראל–ארה״ב</div>
+          <div className="text-[11px] text-slate-400">מאגר נתונים והשוואות · IMOH</div>
         </div>
-        <button
-          onClick={() => setMobileOpen(!mobileOpen)}
-          className="p-2 rounded-lg hover:bg-slate-800 transition-colors"
-          aria-label="תפריט"
-        >
-          {mobileOpen ? <X size={22} /> : <Menu size={22} />}
-        </button>
+        <div className="flex items-center gap-1.5">
+          <button
+            onClick={toggleTheme}
+            className="p-2 rounded-lg hover:bg-slate-800 transition-colors cursor-pointer"
+            aria-label="החלף ערכת נושא"
+            title={theme === 'dark' ? 'מצב בהיר' : 'מצב כהה'}
+          >
+            {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
+          </button>
+          <button
+            onClick={() => setMobileOpen(!mobileOpen)}
+            className="p-2 rounded-lg hover:bg-slate-800 transition-colors"
+            aria-label="תפריט"
+          >
+            {mobileOpen ? <X size={22} /> : <Menu size={22} />}
+          </button>
+        </div>
       </header>
 
       {/* Sidebar */}
@@ -47,11 +67,19 @@ export default function Layout({ children }) {
           mobileOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
-        <div className="p-5 border-b border-slate-800 hidden lg:block">
+        <div className="p-5 border-b border-slate-800 hidden lg:flex items-center justify-between gap-2">
           <div>
-            <h1 className="font-bold text-base leading-snug text-white">רילוקיישן ישראל–ארה״ב</h1>
+            <h1 className="font-bold text-base leading-snug text-slate-100">רילוקיישן ישראל–ארה״ב</h1>
             <p className="text-xs text-slate-400">מערכת השוואה ותכנון (2023–2026)</p>
           </div>
+          <button
+            onClick={toggleTheme}
+            className="p-2 rounded-lg bg-slate-800 border border-slate-700 hover:border-blue-500 transition-colors cursor-pointer shrink-0"
+            aria-label="החלף ערכת נושא"
+            title={theme === 'dark' ? 'מצב בהיר' : 'מצב כהה'}
+          >
+            {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
+          </button>
         </div>
 
         <nav className="flex-1 p-3 space-y-1.5 overflow-y-auto">

@@ -4,10 +4,10 @@
     "title": "פרופיל משפחת היעד (4 נפשות)",
     "parents_origin": "זוג הורים ילידי אוקראינה שעלו לישראל בילדות ושירתו בצה\"ל (זכאים להגרלת DV על בסיס אוקראינה עם 2 כרטיסים בשנה)",
     "children_summary": "2 בנות ילידות ישראל (כולל בת כמעט 9)",
-    "medical_profile": "סוכרת סוג 1 (T1D) לבת ה-9 — מטופלת כיום בישראל עם Omnipod 5 + FreeStyle Libre Plus ומקבלת גמלת ילד נכה (~3,800 ש\"ח/חודש)",
+    "medical_profile": "סוכרת סוג 1 (T1D) לבת ה-9 — מטופלת כיום בישראל עם Omnipod 5 + FreeStyle Libre Plus ומקבלת גמלת ילד נכה (50% מעל גיל 6 = 1,943 ש\"ח/חודש; 3,820 ש\"ח עד גיל 6)",
     "employment_profile": "עובד הייטק בחברה עם סניף/נוכחות בארה\"ב (פוטנציאל L-1 או הגשת DV Lottery במקביל)",
     "capital_ils": 500000,
-    "capital_usd": 135000,
+    "capital_usd": 151500,
     "english_level": "אחד ההורים מבין ועובד מול אמריקאים; בת הזוג עם אנגלית בסיסית (אינו מהווה מכשול לגרין קארד)",
     "relatives_in_us": "קרובים רחוקים (דוד וכו') שחיים שנים בארה\"ב ואזרחים — לא יכולים למשוך ישירות, אך יכולים לשמש כ-Joint Sponsor (I-864) בעת הצורך"
   },
@@ -30,13 +30,23 @@
   ],
   "locationsSummary": [
     {
+      "slug": "cranberry-township",
+      "name_he": "קרנברי טאונשיפ, פנסילבניה (פרבר פיטסבורג)",
+      "state_he": "פנסילבניה",
+      "total_monthly_min": 5000,
+      "total_monthly_max": 6000,
+      "state_tax_pct": 4.07,
+      "fema_risk_level": "נמוך יחסית (Relatively Low)",
+      "diabetes_hospital": "UPMC Children's Hospital of Pittsburgh"
+    },
+    {
       "slug": "beachwood",
       "name_he": "ביצ'ווד, אוהיו (פרבר קליבלנד)",
       "state_he": "אוהיו",
       "total_monthly_min": 5600,
       "total_monthly_max": 6400,
-      "state_tax_pct": 3.5,
-      "fema_risk_level": "נמוך מאוד (Very Low)",
+      "state_tax_pct": 4.75,
+      "fema_risk_level": "גבוה יחסית (Relatively High)",
       "diabetes_hospital": "Cleveland Clinic Children's"
     },
     {
@@ -45,9 +55,29 @@
       "state_he": "אינדיאנה",
       "total_monthly_min": 5800,
       "total_monthly_max": 6600,
-      "state_tax_pct": 3.05,
-      "fema_risk_level": "נמוך עד מתון (Relatively Low)",
+      "state_tax_pct": 4.05,
+      "fema_risk_level": "בינוני יחסית (Relatively Moderate)",
       "diabetes_hospital": "Riley Children's Health"
+    },
+    {
+      "slug": "powell",
+      "name_he": "פאוול, אוהיו (פרבר קולומבוס)",
+      "state_he": "אוהיו",
+      "total_monthly_min": 6000,
+      "total_monthly_max": 6800,
+      "state_tax_pct": 4.75,
+      "fema_risk_level": "נמוך יחסית (Relatively Low)",
+      "diabetes_hospital": "Nationwide Children's Hospital"
+    },
+    {
+      "slug": "mequon",
+      "name_he": "מקוון, ויסקונסין (פרבר מילווקי)",
+      "state_he": "ויסקונסין",
+      "total_monthly_min": 6200,
+      "total_monthly_max": 7100,
+      "state_tax_pct": 4.4,
+      "fema_risk_level": "נמוך יחסית (Relatively Low)",
+      "diabetes_hospital": "Children's Wisconsin"
     },
     {
       "slug": "houston",
@@ -65,8 +95,8 @@
       "state_he": "ג'ורג'יה",
       "total_monthly_min": 6500,
       "total_monthly_max": 8120,
-      "state_tax_pct": 5.39,
-      "fema_risk_level": "בינוני (Moderate)",
+      "state_tax_pct": 4.99,
+      "fema_risk_level": "גבוה יחסית (Relatively High)",
       "diabetes_hospital": "Children's Healthcare of Atlanta (CHOA)"
     },
     {
@@ -83,16 +113,16 @@
       "slug": "cherry-hill",
       "name_he": "צ'רי היל, ניו ג'רזי (פרבר פילדלפיה)",
       "state_he": "ניו ג'רזי",
-      "total_monthly_min": 6700,
-      "total_monthly_max": 7600,
-      "state_tax_pct": 5.9,
-      "fema_risk_level": "נמוך (Low)",
+      "total_monthly_min": 7100,
+      "total_monthly_max": 8100,
+      "state_tax_pct": 3.6,
+      "fema_risk_level": "בינוני יחסית (Relatively Moderate)",
       "diabetes_hospital": "CHOP (Children's Hospital of Philadelphia)"
     }
   ],
   "counts": {
-    "sources": 31,
+    "sources": 37,
     "stories": 3,
-    "locations": 6
+    "locations": 9
   }
 }

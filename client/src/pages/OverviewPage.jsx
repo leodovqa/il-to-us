@@ -66,7 +66,7 @@ export default function OverviewPage() {
               to="/locations"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm transition-colors shadow-lg shadow-blue-600/20"
             >
-              <span>השוואת 6 ערים ופרברים</span>
+              <span>השוואת {locationsSummary.length} ערים ופרברים</span>
               <ArrowLeft size={16} />
             </Link>
             <Link
@@ -113,7 +113,7 @@ export default function OverviewPage() {
             ₪{profile.capital_ils.toLocaleString()} <span className="text-base font-semibold text-slate-400">(~${profile.capital_usd.toLocaleString()})</span>
           </div>
           <p className="text-xs text-slate-400 leading-relaxed">
-            הקמה ראשונית: ~$40k–$50k • יתרת ביטחון: ~$85k–$95k (12–18 חודשי מחיה).
+            הקמה ראשונית: ~$47.5k–$70.5k • יתרת ביטחון: ~$81k–$104k (12–16 חודשי מחיה).
           </p>
         </div>
 
@@ -175,7 +175,7 @@ export default function OverviewPage() {
             </div>
             <ul className="list-disc list-inside space-y-0.5 text-amber-200/90">
               <li>הגשת 2 טפסי DV Lottery נפרדים בכל אוקטובר (על בסיס אוקראינה).</li>
-              <li>קצבת ילד נכה מביטוח לאומי נפסקת אחרי 3 חודשים בחו״ל.</li>
+              <li>קצבת ילד נכה (1,943 ₪/חודש מגיל 6) משולמת חודש יציאה + 3 חודשים בחו״ל.</li>
               <li>להגיע עם מלאי של 3–4 חודשים של Omnipod 5, Libre ואינסולין.</li>
             </ul>
           </div>
@@ -185,7 +185,7 @@ export default function OverviewPage() {
         <section className="lg:col-span-2 bg-slate-900/80 rounded-2xl p-5 border border-slate-800 shadow-sm space-y-4">
           <div className="flex items-center justify-between flex-wrap gap-2">
             <div>
-              <h2 className="font-bold text-lg text-white">הבדלים מרכזיים בין 6 היעדים שנבדקו (Diff)</h2>
+              <h2 className="font-bold text-lg text-white">הבדלים מרכזיים בין {locationsSummary.length} היעדים שנבדקו (Diff)</h2>
               <p className="text-xs text-slate-400">ממוין מהעלות החודשית הנמוכה לגבוהה למשפחה בת 4 נפשות</p>
             </div>
             <Link to="/locations" className="text-sm font-semibold text-blue-400 hover:text-blue-300 hover:underline flex items-center gap-1">

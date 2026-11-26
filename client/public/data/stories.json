@@ -8,8 +8,8 @@
       "destination": "אטלנטה, ג'ורג'יה",
       "timeframe": "2025–2026 (פורסם אפריל 2026)",
       "family_size": "זוג הורים + 4 ילדים",
-      "source_name": "Reddit r/Israel",
-      "source_url": "https://www.reddit.com/r/Israel/comments/1sd0gam/finances_and_war_lets_talk_about_it/",
+      "source_name": "סיכום קהילת r/Israel",
+      "source_url": "https://www.reddit.com/r/Israel/",
       "secondary_url": null,
       "secondary_label": null,
       "background": "הורה שעבד כ-12 שנים בסטארט-אפים ישראליים. בעקבות גלי פיטורים וצמצומים אחרי אוקטובר 2023, מחלקתו עברה לארה\"ב והמשרדים בישראל נסגרו. אחרי חצי שנה של חיפוש עבודה ושחיקת חסכונות (הוצאה חודשית של ~25,000 ש\"ח בישראל: 11,000 ש\"ח גנים, 8,000 ש\"ח משכנתא וחשבונות עם רכב אחד), המשפחה החליטה לעבור.",
@@ -74,6 +74,16 @@
     },
     {
       "id": 2,
+      "handle": "@oryo-austin",
+      "name_he": "אור יוחנן — אור באוסטין / רילוקיישן לטקסס (Or Yochanan)",
+      "creators": "אור יוחנן (יוצא הייטק וטכניון, Austin Connections Group)",
+      "channel_url": "https://www.youtube.com/@oryo-austin",
+      "topics": "טקסס,שכונות ובתי ספר,קניית/שכירת בית,ראיונות משפחות מישראל",
+      "summary": "הערוץ בעברית (@oryo-austin; הערוץ באנגלית: @or.yochanan) המתמקד במשפחות הייטק ישראליות שעוברות לטקסס: סיורי בתים, בתי ספר, עלויות מחיה אמיתיות וראיונות.",
+      "is_user_recommended": 0
+    },
+    {
+      "id": 3,
       "handle": "@FoolyLiving",
       "name_he": "FoolyLiving (הדר ואנדראה)",
       "creators": "הדר (ישראלי) ואנדראה (אמריקאית) + 2 ילדים",
@@ -84,16 +94,6 @@
     },
     {
       "id": 4,
-      "handle": "@or.yochanan",
-      "name_he": "אור יוחנן — רילוקיישן לטקסס (Or Yochanan)",
-      "creators": "אור יוחנן (יוצא הייטק וטכניון, Austin Connections Group)",
-      "channel_url": "https://www.youtube.com/@or.yochanan",
-      "topics": "טקסס,שכונות ובתי ספר,קניית/שכירת בית,ראיונות משפחות מישראל",
-      "summary": "ערוץ בעברית המתמקד במשפחות הייטק ישראליות שעוברות לטקסס (אוסטין/פרברים): סיורי בתים ושכונות, בתי ספר, עלויות מחיה אמיתיות וראיונות עם ישראלים שעשו את המעבר.",
-      "is_user_recommended": 0
-    },
-    {
-      "id": 6,
       "handle": "@PerspectivesTvIl",
       "name_he": "פרספקטיבה — ערוץ ישראלי בצפון אמריקה",
       "creators": "PerspectivesTv",
