@@ -102,6 +102,21 @@ app.get('/api/practical', (req, res) => {
   res.json({ landingBudget, checklists, sources });
 });
 
+app.get('/api/niche-db', (req, res) => {
+  const places = db
+    .prepare('SELECT * FROM niche_db_places ORDER BY peace_of_mind_score DESC, home_buy_median ASC')
+    .all();
+  res.json({
+    places,
+    criteria: {
+      crime_min: 'A-',
+      schools_min: 'A',
+      fema_focus: 'ללא שריפות יער, ללא הוריקנים, ללא צונאמי, רשת חשמל אמינה לסוכרת סוג 1',
+      family_profile: 'QA בכיר (עבודה מהבית + גיבוי מקומי) + בת זוג במשרה חלקית גמישה + 2 ילדים (אחד עם T1D) + רכב אמין בעלות נמוכה',
+    },
+  });
+});
+
 app.patch('/api/checklists/:id', (req, res) => {
   const id = Number(req.params.id);
   const { is_completed } = req.body;

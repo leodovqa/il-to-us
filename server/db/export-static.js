@@ -92,4 +92,26 @@ fs.writeFileSync(
   JSON.stringify({ landingBudget, checklists: pracChecklists, sources: allSources }, null, 2)
 );
 
+// 7. niche-db.json
+const nichePlaces = db
+  .prepare('SELECT * FROM niche_db_places ORDER BY peace_of_mind_score DESC, home_buy_median ASC')
+  .all();
+fs.writeFileSync(
+  path.join(outDir, 'niche-db.json'),
+  JSON.stringify(
+    {
+      places: nichePlaces,
+      criteria: {
+        crime_min: 'A-',
+        schools_min: 'A',
+        fema_focus: 'ללא שריפות יער, ללא הוריקנים, ללא צונאמי, רשת חשמל אמינה לסוכרת סוג 1',
+        family_profile:
+          'QA בכיר (עבודה מהבית + גיבוי מקומי) + בת זוג במשרה חלקית גמישה + 2 ילדים (אחד עם T1D) + רכב אמין בעלות נמוכה',
+      },
+    },
+    null,
+    2
+  )
+);
+
 console.log('Exported static JSON bundles to:', outDir);

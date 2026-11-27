@@ -106,6 +106,8 @@ export const api = {
     return data;
   },
 
+  getNicheDb: async () => (await fetchApiOrStatic('/niche-db', 'niche-db.json')).data,
+
   toggleChecklist: async (id, is_completed) => {
     try {
       const res = await fetch(`${API_BASE}/checklists/${id}`, {

@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
 import OverviewPage from './pages/OverviewPage';
 import LocationsPage from './pages/LocationsPage';
+import NicheDbPage from './pages/NicheDbPage';
 import VisasPage from './pages/VisasPage';
 import DiabetesPage from './pages/DiabetesPage';
 import StoriesPage from './pages/StoriesPage';
@@ -14,6 +15,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<OverviewPage />} />
           <Route path="/locations" element={<LocationsPage />} />
+          <Route path="/niche-db" element={<NicheDbPage />} />
           <Route path="/visas" element={<VisasPage />} />
           <Route path="/diabetes" element={<DiabetesPage />} />
           <Route path="/stories" element={<StoriesPage />} />
