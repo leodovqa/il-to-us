@@ -17,6 +17,7 @@ import {
 const navItems = [
   { to: '/', label: 'תמונת מצב משולבת', sub: 'פרופיל משפחתי ויעדים', icon: LayoutDashboard },
   { to: '/locations', label: 'השוואת ערים ופרברים', sub: 'עלויות, FEMA, אנטישמיות', icon: MapPin },
+  { to: '/niche-db', label: 'מאגר Niche DB (A+A)', sub: 'פשיעה A, חינוך A, T1D וחשמל', icon: Database },
   { to: '/visas', label: 'ויזות, גרין קארד ומשפחה', sub: 'L-1, DV, פיטורים ואיחוד', icon: FileCheck2 },
   { to: '/diabetes', label: 'סוכרת סוג 1 וביטוחים', sub: 'Omnipod, Libre, קצבאות', icon: HeartPulse },
   { to: '/stories', label: 'עדויות מהשטח וערוצי יוטיוב', sub: 'סיפורים, וולוגים ולינקים', icon: BookOpen },
